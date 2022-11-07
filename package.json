@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "zip": "node generate-zip.js"
+  },
+  "dependencies": {
+    "cross-zip": "^4.0.0",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.1",
+    "fs-extra": "^10.1.0",
+    "moment": "^2.29.4",
+    "next": "13.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.56.0",
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2",
+    "typeface-roboto": "^1.1.13"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

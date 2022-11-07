@@ -1,0 +1,68 @@
+.itemContainer {
+  width: 1000px;
+}
+.createFrame {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  padding: 10px 5px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.taskContainer {
+  display: flex;
+}
+.taskContainer input,
+.dateContainer {
+  color: #323232;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.datebtnContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.plus {
+  width: 18px;
+  height: 18px;
+}
+.addButton {
+  background-color: #fff;
+  border: none;
+}
+
+.createTask {
+  //   width: 162px;
+  display: flex;
+  color: #3d82eb;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  gap: 10px;
+  padding-top: 1rem;
+}
+
+.inputText {
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 1050px) {
+  .itemContainer {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .itemContainer {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .itemContainer {
+    width: 300px;
+  }
+}

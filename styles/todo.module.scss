@@ -1,0 +1,118 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  height: 100vh;
+  align-items: flex-start;
+  font-family: "Roboto";
+}
+.todoWrapper {
+  margin: 0 auto;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #323232;
+  }
+}
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.activityContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  gap: 10px;
+  // width: 100%;
+}
+
+.searchBar {
+  display: flex;
+  width: 849px;
+  height: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 100px;
+  background-color: white;
+  opacity: 0.5;
+}
+.sort {
+  width: 49px;
+  appearance: none;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  outline: none;
+  text-align: center;
+  line-height: 16px;
+  background-color: #fff;
+  color: #499557;
+
+  .headSelect {
+    text-align: center;
+    line-height: 16px;
+    background-color: #fff;
+    color: #323232;
+  }
+
+  font-weight: 600;
+}
+
+.activity {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #3d82eb;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap: 54px;
+  background-color: #fff;
+}
+
+.todobtnContainer,
+.btnContainer {
+  display: flex;
+  gap: 10px;
+}
+.btnColor {
+  background-color: #fff;
+  border: none;
+}
+
+.overdueHighlight {
+  background-color: rgb(247, 188, 188);
+}
+
+@media only screen and (max-width: 1050px) {
+  .searchBar {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .searchBar {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .searchBar {
+    width: 200px;
+  }
+}
